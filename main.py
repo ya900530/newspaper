@@ -1,9 +1,4 @@
-import os
 
-import files
-import img2pdf
-import PyPDF2
-from PIL import Image
 from PIL import Image
 
 # Open an image file
@@ -54,7 +49,7 @@ resize01(9)
 # os.rename('imgs','images')
 # os.chdir("images")
 #
-# imgs = os.listdir()
+# imgs = oss.listdir()
 # imgs.sort()
 # for ind,img in enumerate(imgs):
 #     #open each image
